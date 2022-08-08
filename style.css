@@ -1,0 +1,63 @@
+#body  {
+    background-color: #555;
+    transform: scale(0.5);  
+}
+
+#gameContainer  {
+    transform: translateY(-50%);
+    text-align: center;
+}
+
+#gameBoard  {
+    border: 10px solid black;
+}
+
+#res  {
+    margin-top: 40px;
+    height: 50px;
+    width: 150px;
+    font-size: 22px;
+    font-family: cursive;
+    border: none;
+    border-radius: 22px;
+}
+
+.instruction  {
+    position: fixed;
+    font-size: 70px;
+    font-family: cursive;
+    top: 20%;
+    left: -42%;
+    text-align: center;
+}
+
+#ins  {
+    font-size: 40px;
+
+}
+
+#ins2  {
+    font-size: 40px;
+}
+
+#fb  {
+    position: fixed;
+    bottom: 50%;
+    right: -30%;
+    font-size: 500%;
+    color: #000;
+}
+
+#fb:hover  {
+    font-size: 600%;
+    color: rgb(13, 44, 105);
+}
+
+#levelShow  {
+    position: fixed;
+    top: 20%;
+    right: -30%;
+    padding: 30px;
+    border: 5px solid black;
+    border-radius: 22px;
+}
